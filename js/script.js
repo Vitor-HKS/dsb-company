@@ -25,7 +25,7 @@ const CONFIG = {
    -------------------------------------------------------------------------- */
 function applyContactLinks() {
   const { number, message } = CONFIG.whatsapp;
-  const whatsappUrl = `https://wa.me/${number}?text=${encodeURIComponent(message)}`;
+   const whatsappUrl = `https://wa.me/${number}?text=${encodeURIComponent(message)}`;
 
   document.querySelectorAll("[data-whatsapp]").forEach((el) => {
     el.setAttribute("href", whatsappUrl);
