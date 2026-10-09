@@ -9,9 +9,9 @@
 const CONFIG = {
   whatsapp: {
     // SUBSTITUIR POR: número com código do país + DDD, somente dígitos (ex.: 5541999999999)
-    number: "",
+    number: "5541998253143",
     // Mensagem que já aparece preenchida no WhatsApp
-    message: "",
+    message: "Olá! Vim pelo site da DSB Company e gostaria de conversar sobre um projeto.",
   },
   social: {
     // SUBSTITUIR POR: links reais. Enquanto estiver "#", o clique não faz nada.
